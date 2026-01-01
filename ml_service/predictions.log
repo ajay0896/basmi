@@ -1,0 +1,49 @@
+2026-01-02 02:37:17,589 - INFO - Models loaded successfully
+2026-01-02 02:37:41,509 - INFO - Models loaded successfully
+2026-01-02 02:39:15,356 - INFO - Models loaded successfully
+2026-01-02 02:41:32,829 - INFO - Models loaded successfully
+2026-01-02 02:42:06,062 - INFO - Models loaded successfully
+2026-01-02 02:42:39,480 - INFO - Models loaded successfully
+2026-01-02 02:43:12,368 - INFO - Models loaded successfully
+2026-01-02 02:43:41,093 - WARNING - Keyword spam detected: 'pungli' appears 5/9 times
+2026-01-02 02:43:41,094 - WARNING - Keyword spam rejected: 'pungli' in text of length 53
+2026-01-02 02:43:54,038 - INFO - Keyword match: 'pungutan liar' | Processing time: 0.000s
+2026-01-02 02:47:20,847 - INFO - Models loaded successfully
+2026-01-02 02:48:21,397 - INFO - Models loaded successfully
+2026-01-02 02:48:55,252 - WARNING - Keyword spam rejected: 'korupsi' in text of length 121
+2026-01-02 02:49:19,328 - WARNING - Low confidence prediction: 0.56 for text: beli produk asuransi murah sekarang juga dapatkan 
+2026-01-02 02:49:19,328 - INFO - ML Prediction: spam | Confidence: 0.56 | Time: 0.097s
+2026-01-02 02:49:37,977 - WARNING - Keyword spam rejected: 'gratifikasi' in text of length 104
+2026-01-02 02:50:47,702 - INFO - Models loaded successfully
+2026-01-02 02:51:11,322 - INFO - Models loaded successfully
+2026-01-02 02:52:07,250 - INFO - Models loaded successfully
+2026-01-02 02:52:27,184 - INFO - Keyword match: 'korupsi' | Processing time: 0.001s
+2026-01-02 02:52:58,091 - INFO - Keyword match: 'korupsi' | Processing time: 0.000s
+2026-01-02 02:53:12,330 - INFO - Keyword match: 'gratifikasi' | Processing time: 0.000s
+2026-01-02 02:53:44,889 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 02:53:44,897 - INFO - Keyword match: 'pungutan liar' | Processing time: 0.000s
+2026-01-02 02:53:56,439 - INFO - Keyword match: 'pungutan liar' | Processing time: 0.000s
+2026-01-02 02:54:16,154 - INFO - Keyword match: 'pungli' | Processing time: 0.000s
+2026-01-02 02:54:16,154 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 02:54:16,155 - INFO - Keyword match: 'korupsi' | Processing time: 0.000s
+2026-01-02 02:54:16,155 - INFO - Batch prediction: 3 texts | Time: 0.001s
+2026-01-02 03:08:53,200 - INFO - Models loaded successfully
+2026-01-02 03:14:24,367 - INFO - Keyword match: 'pungutan liar' | Processing time: 0.001s
+2026-01-02 03:14:40,821 - INFO - Keyword match: 'pungli' | Processing time: 0.000s
+2026-01-02 03:14:40,822 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 03:14:40,822 - WARNING - Text too short after cleaning: 8 words
+2026-01-02 03:14:40,822 - WARNING - Keyword spam rejected: 'korupsi' in text of length 52
+2026-01-02 03:14:40,822 - INFO - Batch prediction: 3 texts | Time: 0.001s
+2026-01-02 03:15:10,642 - INFO - Keyword match: 'pungli' | Processing time: 0.000s
+2026-01-02 03:15:10,642 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 03:15:10,642 - WARNING - Text too short after cleaning: 8 words
+2026-01-02 03:15:10,642 - WARNING - Keyword spam rejected: 'korupsi' in text of length 52
+2026-01-02 03:15:10,642 - INFO - Batch prediction: 3 texts | Time: 0.001s
+2026-01-02 03:15:23,215 - WARNING - Text too short after cleaning: 8 words
+2026-01-02 03:15:23,215 - WARNING - Keyword spam rejected: 'pungli' in text of length 42
+2026-01-02 03:15:23,215 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 03:15:23,215 - INFO - Batch prediction: 2 texts | Time: 0.000s
+2026-01-02 03:15:42,527 - WARNING - Spam pattern detected: Terdeteksi pola spam
+2026-01-02 03:28:48,693 - WARNING - Text too short after cleaning: 9 words
+2026-01-02 03:28:48,693 - WARNING - Keyword spam rejected: 'pungutan liar' in text of length 62
+2026-01-02 03:33:37,403 - INFO - Models loaded successfully
