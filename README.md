@@ -190,36 +190,7 @@ source venv/bin/activate  # Linux/Mac
 uvicorn main:app --reload --port 8001
 ```
 
-### Access Application
 
--   **Public Interface**: http://localhost:8000
--   **Admin Panel**: http://localhost:8000/admin
--   **ML API Docs**: http://localhost:8001/docs
--   **ML Health Check**: http://localhost:8001/health
-
-## API Endpoints
-
-### Laravel API
-
-```
-POST   /api/spam-check/single      - Check single text
-POST   /api/spam-check/batch        - Check multiple texts
-GET    /api/ml-service/health       - ML service status
-GET    /api/ml-service/stats        - ML service statistics
-GET    /api/ml-service/model-info   - Model configuration
-POST   /api/ml-service/test         - Test prediction
-```
-
-### ML Service API
-
-```
-GET    /                            - Service info
-POST   /predict                     - Single prediction
-POST   /predict/batch               - Batch prediction
-GET    /health                      - Health check
-GET    /stats                       - Usage statistics
-GET    /model-info                  - Model details
-```
 
 ## Project Impact
 
@@ -235,7 +206,7 @@ GET    /model-info                  - Model details
 -   **Citizen Empowerment**: Anonymous reporting removes fear of retaliation
 -   **Data-Driven Policy**: Geographic visualization helps authorities prioritize action
 -   **Transparency**: Public report tracking builds government accountability
--   **Accessibility**: User-friendly interface (15-character minimum vs industry 100+)
+-   **Accessibility**: User-friendly interface
 
 ### Social Value
 
@@ -244,66 +215,16 @@ GET    /model-info                  - Model details
 -   **Community Trust**: Transparent status tracking increases public confidence
 -   **Digital Inclusion**: Mobile-responsive design reaches wider population
 
-## Configuration
-
-### Validation Rules
-
--   **Minimum Text Length**: 15 characters
--   **Minimum Words**: 3 words
--   **Maximum Text Length**: 5000 characters
--   **Supported File Types**: JPEG, PNG, PDF, MP4
--   **Maximum File Size**: 5MB per file
-
-### ML Model Configuration
-
--   **Algorithm**: Logistic Regression
--   **Vectorization**: TF-IDF (1-2 grams)
--   **Confidence Threshold**: 0.6 (adjustable)
--   **Batch Size**: Maximum 10 reports
--   **Timeout**: 10 seconds per request
-
-## Security Features
-
--   **Input Sanitization**: XSS protection on all user inputs
--   **SQL Injection Prevention**: Laravel ORM (Eloquent)
--   **CSRF Protection**: Laravel CSRF tokens
--   **Rate Limiting**: API throttling to prevent abuse
--   **Data Validation**: Multi-layer validation (client + server + ML)
--   **Anonymous Reporting**: Optional identity protection
-
-## Performance Optimization
-
--   **Database Indexing**: Optimized queries on frequently accessed fields
--   **Asset Bundling**: Vite-based compilation and minification
--   **API Caching**: Health check and model info caching
--   **Connection Pooling**: Efficient ML service communication
--   **Lazy Loading**: Progressive data loading for large datasets
-
-## Contributing
-
-While this is a government innovation project, we welcome suggestions and bug reports:
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open Pull Request
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
--   **Laravel Community** - Framework and package ecosystem
--   **FastAPI Community** - ML service framework
 
 ## Contact & Support
 
 -   **Project Team**: [Basmi]
 -   **Email**: [dikamalik358@gmail.com]
--   **Documentation**: See `/docs` directory
--   **Issue Tracker**: GitHub Issues
 
 ---
 
@@ -311,4 +232,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **Category**: Student Innovation  
 **Region**: Bandung Regency, West Java, Indonesia
 
-_Built with purpose. Powered by AI. Trusted by citizens._
+_Built with purpose.
