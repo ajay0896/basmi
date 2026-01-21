@@ -221,11 +221,6 @@ uvicorn main:app --reload --port 8001
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-## Contact & Support
-
--   **Project Team**: [Basmi]
--   **Email**: [dikamalik358@gmail.com]
-
 ---
 
 **Award**: Top 10 Innovation - Kompetisi Inovasi Bandung Bedas (KIBB) 2025  
